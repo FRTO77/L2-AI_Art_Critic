@@ -20,7 +20,6 @@ Important: This is subjective critique, not an absolute truth. Use it creatively
 
 ## Quickstart
 ```powershell
-cd C:\Users\Nemo\Documents\LangChain
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r AI_Art_Critic\requirements.txt
@@ -69,6 +68,7 @@ Notes:
 ## Security & Privacy
 - Images are processed locally; if LLM is enabled, a low-resolution base64 preview is sent to the model provider.
 - Keep your API keys in `.env` and never commit them.
+
 
 
 
